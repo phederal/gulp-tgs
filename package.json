@@ -1,0 +1,40 @@
+{
+  "name": "gulp-tgs",
+  "version": "1.0.0",
+  "description": "Uncompress telegram sticker files in your gulp build pipeline",
+  "main": "index.js",
+  "dependencies": {
+    "through2": "~2.0.3",
+    "vinyl": "~2.0.1"
+  },
+  "devDependencies": {
+    "event-stream": "~3.3.4",
+    "mocha": "~3.2.0",
+    "async": "~2.1.5",
+    "lodash": "~4.17.4",
+    "jshint": "~2.9.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "lint": "jshint ."
+  },
+  "author": "Roman Kurushin <it@qork.ru> (https://qork.ru)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phederal/gulp-tgs"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "tgs",
+    "telegram",
+    "sticker"
+  ],
+  "bugs": {
+    "url": "https://github.com/phederal/gulp-tgs/issues"
+  },
+  "files": [
+    "index.js"
+  ]
+}
