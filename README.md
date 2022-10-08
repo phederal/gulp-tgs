@@ -1,6 +1,6 @@
 # gulp-tgs
 
-Uncompress tgs files in your [gulp](http://gulpjs.com) build pipeline
+Uncompress [tgs](https://core.telegram.org/stickers) files in your [gulp](http://gulpjs.com) build pipeline
 
 ## Install
 
